@@ -1,0 +1,72 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Q1</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>body{
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+.box1{
+    border: 1px solid black;
+    width: 200px;
+}
+.box2{
+    border: 1px solid black;
+    width: -webkit-fill-available;
+}
+.box3{
+    border: 1px solid black;
+    width: 300px;
+}</style>
+</head>
+<body>
+  <body>
+  
+    <div class="container">
+      <div class="box1">
+        <input type="text" style="width: 70px;">
+      </div>
+      <div class="box2">1</div>
+      <div class="box3">1</div>    
+    </div>
+    
+  </body>
+  <app-root></app-root>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prime/Fibo</title>
+
+</head>
+<script>
+  var app = angular.module('demo', []);
+  app.controller('myCtrl', function($scope) {
+  $scope.names = ["Demavand", "Pradeep", "Ashutosh"];
+  });
+  </script>
+<body>
+  
+  <div class="container">
+    <div class="box1">
+      <input type="text" style="width: 70px;">
+    </div>
+    <div class="box2">
+      <select>
+        <option ng-repeat="name in names">{{name}}</option>
+        </select></div>
+    <div class="box3">1</div>    
+  </div>
+  
+</body>
+</html>

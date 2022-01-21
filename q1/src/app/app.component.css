@@ -1,0 +1,21 @@
+body{
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+.box1{
+    border: 1px solid black;
+    width: 200px;
+}
+.box2{
+    border: 1px solid black;
+    width: -webkit-fill-available;
+}
+.box3{
+    border: 1px solid black;
+    width: 300px;
+}
